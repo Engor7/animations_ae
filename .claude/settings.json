@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(.venv/bin/python:*)",
+      "Bash(/Users/egor/animations/.venv/bin/python:*)",
+      "Bash(ffmpeg:*)",
+      "Bash(ffprobe:*)",
+      "Bash(magick:*)",
+      "Bash(img2webp:*)",
+      "Bash(webpmux:*)",
+      "Bash(python3 -m http.server:*)",
+      "mcp__playwright"
+    ]
+  }
+}

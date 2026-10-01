@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Claude Bridge</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin: 0; padding: 10px 12px; font: 12px/1.45 -apple-system, "SF Pro Text", sans-serif;
+         background: #1e1e1e; color: #d6d6d6; }
+  h1 { font-size: 12px; margin: 0 0 6px; letter-spacing: .04em; text-transform: uppercase; color: #9a9a9a; }
+  #status { font-weight: 600; margin-bottom: 8px; }
+  #status.on { color: #6ede8a; } #status.off { color: #ff6b6b; }
+  #log { height: calc(100vh - 86px); overflow: auto; background: #151515; border: 1px solid #2d2d2d;
+         border-radius: 4px; padding: 6px 8px; font-family: "SF Mono", Menlo, monospace; font-size: 11px; }
+  .row { margin-bottom: 3px; white-space: pre-wrap; word-break: break-word; }
+  .t { color: #6f6f6f; } .err { color: #ff8585; } .ok { color: #8fb9ff; }
+</style>
+</head>
+<body>
+  <h1>Claude ↔ After Effects</h1>
+  <div id="status" class="off">starting…</div>
+  <div id="log"></div>
+  <script src="bridge.js"></script>
+</body>
+</html>

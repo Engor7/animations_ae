@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@playwright/mcp@latest",
+        "--headless"
+      ],
+      "env": {}
+    },
+    "after-effects": {
+      "type": "stdio",
+      "command": "/Users/egor/animations/.venv/bin/python",
+      "args": [
+        "/Users/egor/animations/tools/ae-bridge/mcp_ae.py"
+      ],
+      "env": {}
+    }
+  }
+}
